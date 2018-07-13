@@ -1,6 +1,8 @@
 {
 	"folder_history":
 	[
+		"/Users/Marc/MHessDev/front-end",
+		"/Users/Marc/MHessDev",
 		"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/static-display-stand-drawings",
 		"/Users/Marc/Desktop/php_public/events/sdc/2018/manage-your-exhibit/exhibitor-appointed-contractor",
 		"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/exhibitor-appointed-contractor",
@@ -15,7 +17,7 @@
 		"/Users/Marc/Desktop/php-ssl"
 	],
 	"last_version": 3176,
-	"last_window_id": 33,
+	"last_window_id": 36,
 	"log_indexing": false,
 	"settings":
 	{
@@ -91,9 +93,15 @@
 			},
 			"file_history":
 			[
+				"/Users/Marc/MHessDev/index.html",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/README.md",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/orderform.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/index.php",
 				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/orderform.php",
 				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/thanks.php",
-				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/index.php",
 				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/thanks",
 				"/Users/Marc/Desktop/php_public/prodsvcs/store/free/index.php",
 				"/Users/Marc/Desktop/php_public/prodsvcs/store/videos/orderform2.php",
@@ -152,7 +160,7 @@
 			],
 			"find":
 			{
-				"height": 39.0
+				"height": 137.0
 			},
 			"find_in_files":
 			{
@@ -166,31 +174,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"</td><td>",
-					"<tr><td>",
-					"<div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\n\t</div>",
-					"</td></tr>",
-					"</td><td>",
-					"<tr><td>",
-					"</div>\n\t</div>\n\t<div class=\"row\">",
-					"initCountry",
-					"initCountry();",
-					"populateState",
-					"STATEPROVINCE",
-					"STATEPROVINCE2",
-					"function",
-					"STATEPROVINCE",
-					"STATEPROVINCE2",
-					" * ",
-					"</div>\n</div>\n\n<div class=\"row\">",
-					"\t</div>\n</div>\n\t\n<div class=\"row\">",
-					"</div>\n</div>\n<div class=\"row\">",
-					"orderForm",
-					"</div> \n\t\n<div class=\"row\">",
-					"</div>\n\n<div class=\"row\">",
-					"/div>\n\t\n<div class=\"row\">",
-					"</div>\n</div>\n<div class=\"row\">",
-					"</div>\n\t</div>\n\t<div class=\"row\">"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -307,53 +290,29 @@
 			"buffers":
 			[
 				{
+					"file": "/Users/Marc/MHessDev/front-end/src/components/Home.vue",
 					"settings":
 					{
-						"buffer_size": 0,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/index.php",
-					"settings":
-					{
-						"buffer_size": 10596,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/orderform.php",
-					"settings":
-					{
-						"buffer_size": 20120,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/thanks.php",
-					"settings":
-					{
-						"buffer_size": 5598,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/Users/Marc/Library/Application Support/Sublime Text 3/README.md",
-					"settings":
-					{
-						"buffer_size": 58,
+						"buffer_size": 224,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks.php",
+					"file": "/Users/Marc/MHessDev/front-end/src/components/About.vue",
 					"settings":
 					{
-						"buffer_size": 3822,
+						"buffer_size": 226,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/Marc/MHessDev/front-end/src/router/index.js",
+					"settings":
+					{
+						"buffer_size": 227,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				}
@@ -392,8 +351,18 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/Users/Marc/MHessDev/front-end",
+				"/Users/Marc/MHessDev/front-end/src",
+				"/Users/Marc/MHessDev/front-end/src/components",
+				"/Users/Marc/MHessDev/front-end/src/router"
+			],
 			"file_history":
 			[
+				"/Users/Marc/MHessDev/front-end/src/components/About.js",
+				"/Users/Marc/MHessDev/index.html",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/README.md",
 				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks",
 				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks.php",
 				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/orderform.php",
@@ -459,7 +428,7 @@
 			],
 			"find":
 			{
-				"height": 137.0
+				"height": 77.0
 			},
 			"find_in_files":
 			{
@@ -473,34 +442,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"</div>\n\t</div>\n\t<div class=\"row\">",
-					"<OPTION ",
-					"</div>\n\t</div>\n\t<div class=\"row\">",
-					"</td><td>",
-					"<tr><td>",
-					"<div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\n\t</div>",
-					"</td></tr>",
-					"</td><td>",
-					"<tr><td>",
-					"</div>\n\t</div>\n\t<div class=\"row\">",
-					"initCountry",
-					"initCountry();",
-					"populateState",
-					"STATEPROVINCE",
-					"STATEPROVINCE2",
-					"function",
-					"STATEPROVINCE",
-					"STATEPROVINCE2",
-					" * ",
-					"</div>\n</div>\n\n<div class=\"row\">",
-					"\t</div>\n</div>\n\t\n<div class=\"row\">",
-					"</div>\n</div>\n<div class=\"row\">",
-					"orderForm",
-					"</div> \n\t\n<div class=\"row\">",
-					"</div>\n\n<div class=\"row\">",
-					"/div>\n\t\n<div class=\"row\">",
-					"</div>\n</div>\n<div class=\"row\">",
-					"</div>\n\t</div>\n\t<div class=\"row\">"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -515,146 +456,39 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/Users/Marc/MHessDev/front-end"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 4,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
+							"file": "/Users/Marc/MHessDev/front-end/src/components/Home.vue",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 224,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										207,
+										207
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/index.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 10596,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										485,
-										485
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/orderform.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 20120,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										14473,
-										14473
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 11554.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/thanks.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5598,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										4653,
-										4653
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 5241.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/Users/Marc/Library/Application Support/Sublime Text 3/README.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 58,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										58,
-										58
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+									"auto_name": "",
+									"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -664,29 +498,57 @@
 							"type": "text"
 						},
 						{
-							"buffer": 5,
-							"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks.php",
+							"buffer": 1,
+							"file": "/Users/Marc/MHessDev/front-end/src/components/About.vue",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3822,
+								"buffer_size": 226,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										196,
-										3822
+										226,
+										226
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false
+									"auto_name": "",
+									"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 4556.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/Marc/MHessDev/front-end/src/router/index.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 227,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										65,
+										65
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 2,
@@ -735,7 +597,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "1 1758 13 1027 784 1440 -125 1920 1057 ",
+			"position": "1 1932 76 1027 784 1440 -125 1920 1057 ",
 			"project": "",
 			"replace":
 			{
@@ -782,7 +644,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 32,
+			"window_id": 36,
 			"workspace_name": ""
 		}
 	],
