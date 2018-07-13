@@ -341,6 +341,15 @@
 					}
 				},
 				{
+					"file": "/Users/Marc/Library/Application Support/Sublime Text 3/README.md",
+					"settings":
+					{
+						"buffer_size": 58,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
 					"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks.php",
 					"settings":
 					{
@@ -509,7 +518,7 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 4,
 					"sheets":
 					[
 						{
@@ -536,7 +545,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 5,
 							"type": "text"
 						},
 						{
@@ -565,7 +574,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 4,
 							"type": "text"
 						},
 						{
@@ -594,7 +603,7 @@
 								"translation.y": 11554.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
@@ -623,11 +632,39 @@
 								"translation.y": 5241.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
 							"buffer": 4,
+							"file": "/Users/Marc/Library/Application Support/Sublime Text 3/README.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 58,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										58,
+										58
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
 							"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks.php",
 							"semi_transient": false,
 							"settings":
@@ -652,7 +689,7 @@
 								"translation.y": 4556.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"type": "text"
 						}
 					]
