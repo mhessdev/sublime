@@ -1,0 +1,758 @@
+{
+	"folder_history":
+	[
+		"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/static-display-stand-drawings",
+		"/Users/Marc/Desktop/php_public/events/sdc/2018/manage-your-exhibit/exhibitor-appointed-contractor",
+		"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/exhibitor-appointed-contractor",
+		"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/stand-drawing-hanging-sign",
+		"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/publication-bin-reservation-form",
+		"/Users/Marc/Desktop/php_public/events/visa-invitation",
+		"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms",
+		"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms",
+		"/Users/Marc/Library/Application Support/Sublime Text 3",
+		"/Users/Marc/Desktop/php-ssl/awards/gold-wing",
+		"/Applications",
+		"/Users/Marc/Desktop/php-ssl"
+	],
+	"last_version": 3176,
+	"last_window_id": 33,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 762.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"col-sm",
+						"col-sm-8"
+					],
+					[
+						"st",
+						"style\tAttr"
+					],
+					[
+						"visib",
+						"visible"
+					],
+					[
+						"wid",
+						"width\tproperty"
+					],
+					[
+						"form",
+						"form-control"
+					],
+					[
+						"in",
+						"input\tTag"
+					],
+					[
+						"choiceThree",
+						"choiceThreeStartTime"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/orderform.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/thanks.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/thanks",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/free/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/videos/orderform2.php",
+				"/Users/Marc/Desktop/php_public/events/assets/js/stateCountry.js",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/free/orderform2.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/static-display-stand-drawings/test-body.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/static-display-stand-drawings/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/static-display-stand-drawings/appheader.php",
+				"/Users/Marc/Desktop/php_public/prodev/cam/roster/index.php",
+				"/Users/Marc/Desktop/php_public/prodev/pdp/directory/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/videos/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/videos/items.php",
+				"/Users/Marc/Desktop/webservices/member/prodev/cam/roster.cfm",
+				"/Users/Marc/Desktop/php_member/readme.txt",
+				"/Users/Marc/Desktop/php_public/events/sdc/2018/manage-your-exhibit/exhibitor-appointed-contractor/test-body.php",
+				"/Users/Marc/Desktop/php_public/events/assets/includes/formBottom.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/publication-bin-reservation-form/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/stand-drawing-hanging-sign/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/meeting-room-request/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/stand-drawing-hanging-sign/test-body.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/stand-drawing-hanging-sign/appheader.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/includes/jsIncludes/payWireMessage.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/includes/jsIncludes/README.txt",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/includes/payMehtTxt.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/test-body.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/form.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/js/stateCountry.js",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/test-data.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/test.php",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/add_date.py",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/snippets/commentBlock.sublime-snippet",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/meeting-room-request/js/stateCountry.js",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/js/stateCounty.js",
+				"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms/appform.php",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/snippets/required.sublime-snippet",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/snippets/clearfix.sublime-snippet",
+				"/Users/Marc/Desktop/php_public/events/visa-invitation/index.php",
+				"/Users/Marc/Desktop/internal/test-harness/test-grid-tutorial.html",
+				"/Users/Marc/Desktop/internal/test-harness/README.md",
+				"/Users/Marc/Desktop/php_public/events/visa-invitation/test-body.php",
+				"/Users/Marc/Desktop/internal/test-harness/test-data.php",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/reg_replace_rules.sublime-settings",
+				"/Users/Marc/Desktop/internal/test-harness/test.php",
+				"/Users/Marc/Desktop/internal/test-harness/test-data.p",
+				"/Users/Marc/Desktop/Templates/templates/README.md",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/Context.sublime-menu",
+				"/Users/Marc/Desktop/internal/test-harness/readme.text",
+				"/usr/local/bin/commit.sh",
+				"/Users/Marc/.bash_profile",
+				"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms/test.text",
+				"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms/commit.sh",
+				"/Users/Marc/Desktop/PersonalProjects/index.html",
+				"/Users/Marc/Desktop/PersonalProjects/nbaaDevInfos",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"</td><td>",
+					"<tr><td>",
+					"<div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\n\t</div>",
+					"</td></tr>",
+					"</td><td>",
+					"<tr><td>",
+					"</div>\n\t</div>\n\t<div class=\"row\">",
+					"initCountry",
+					"initCountry();",
+					"populateState",
+					"STATEPROVINCE",
+					"STATEPROVINCE2",
+					"function",
+					"STATEPROVINCE",
+					"STATEPROVINCE2",
+					" * ",
+					"</div>\n</div>\n\n<div class=\"row\">",
+					"\t</div>\n</div>\n\t\n<div class=\"row\">",
+					"</div>\n</div>\n<div class=\"row\">",
+					"orderForm",
+					"</div> \n\t\n<div class=\"row\">",
+					"</div>\n\n<div class=\"row\">",
+					"/div>\n\t\n<div class=\"row\">",
+					"</div>\n</div>\n<div class=\"row\">",
+					"</div>\n\t</div>\n\t<div class=\"row\">"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 39.0
+			},
+			"input":
+			{
+				"height": 77.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 234.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 74.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 354.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 574.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1027.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"col-sm",
+						"col-sm-8"
+					],
+					[
+						"st",
+						"style\tAttr"
+					],
+					[
+						"visib",
+						"visible"
+					],
+					[
+						"wid",
+						"width\tproperty"
+					],
+					[
+						"form",
+						"form-control"
+					],
+					[
+						"in",
+						"input\tTag"
+					],
+					[
+						"choiceThree",
+						"choiceThreeStartTime"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/index.php",
+					"settings":
+					{
+						"buffer_size": 10596,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/orderform.php",
+					"settings":
+					{
+						"buffer_size": 20120,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/thanks.php",
+					"settings":
+					{
+						"buffer_size": 5598,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks.php",
+					"settings":
+					{
+						"buffer_size": 3822,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/orderform.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/orderform.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/thanks.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/is-bao/thanks",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/free/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/videos/orderform2.php",
+				"/Users/Marc/Desktop/php_public/events/assets/js/stateCountry.js",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/free/orderform2.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/static-display-stand-drawings/test-body.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/static-display-stand-drawings/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/static-display-stand-drawings/appheader.php",
+				"/Users/Marc/Desktop/php_public/prodev/cam/roster/index.php",
+				"/Users/Marc/Desktop/php_public/prodev/pdp/directory/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/videos/index.php",
+				"/Users/Marc/Desktop/php_public/prodsvcs/store/videos/items.php",
+				"/Users/Marc/Desktop/webservices/member/prodev/cam/roster.cfm",
+				"/Users/Marc/Desktop/php_member/readme.txt",
+				"/Users/Marc/Desktop/php_public/events/sdc/2018/manage-your-exhibit/exhibitor-appointed-contractor/test-body.php",
+				"/Users/Marc/Desktop/php_public/events/assets/includes/formBottom.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/publication-bin-reservation-form/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/stand-drawing-hanging-sign/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/meeting-room-request/appform.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/stand-drawing-hanging-sign/test-body.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/stand-drawing-hanging-sign/appheader.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/includes/jsIncludes/payWireMessage.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/includes/jsIncludes/README.txt",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/includes/payMehtTxt.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/test-body.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/form.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/js/stateCountry.js",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/test-data.php",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/press-conference-rooms/test.php",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/add_date.py",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/snippets/commentBlock.sublime-snippet",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/meeting-room-request/js/stateCountry.js",
+				"/Users/Marc/Desktop/php_public/events/bace/2018/manage-your-exhibit/js/stateCounty.js",
+				"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms/appform.php",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/snippets/required.sublime-snippet",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/snippets/clearfix.sublime-snippet",
+				"/Users/Marc/Desktop/php_public/events/visa-invitation/index.php",
+				"/Users/Marc/Desktop/internal/test-harness/test-grid-tutorial.html",
+				"/Users/Marc/Desktop/internal/test-harness/README.md",
+				"/Users/Marc/Desktop/php_public/events/visa-invitation/test-body.php",
+				"/Users/Marc/Desktop/internal/test-harness/test-data.php",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/reg_replace_rules.sublime-settings",
+				"/Users/Marc/Desktop/internal/test-harness/test.php",
+				"/Users/Marc/Desktop/internal/test-harness/test-data.p",
+				"/Users/Marc/Desktop/Templates/templates/README.md",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/Context.sublime-menu",
+				"/Users/Marc/Desktop/internal/test-harness/readme.text",
+				"/usr/local/bin/commit.sh",
+				"/Users/Marc/.bash_profile",
+				"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms/test.text",
+				"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms/commit.sh",
+				"/Users/Marc/Desktop/PersonalProjects/index.html",
+				"/Users/Marc/Desktop/PersonalProjects/nbaaDevInfos",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 137.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"</div>\n\t</div>\n\t<div class=\"row\">",
+					"<OPTION ",
+					"</div>\n\t</div>\n\t<div class=\"row\">",
+					"</td><td>",
+					"<tr><td>",
+					"<div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\n\t</div>",
+					"</td></tr>",
+					"</td><td>",
+					"<tr><td>",
+					"</div>\n\t</div>\n\t<div class=\"row\">",
+					"initCountry",
+					"initCountry();",
+					"populateState",
+					"STATEPROVINCE",
+					"STATEPROVINCE2",
+					"function",
+					"STATEPROVINCE",
+					"STATEPROVINCE2",
+					" * ",
+					"</div>\n</div>\n\n<div class=\"row\">",
+					"\t</div>\n</div>\n\t\n<div class=\"row\">",
+					"</div>\n</div>\n<div class=\"row\">",
+					"orderForm",
+					"</div> \n\t\n<div class=\"row\">",
+					"</div>\n\n<div class=\"row\">",
+					"/div>\n\t\n<div class=\"row\">",
+					"</div>\n</div>\n<div class=\"row\">",
+					"</div>\n\t</div>\n\t<div class=\"row\">"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/index.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10596,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										485,
+										485
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/orderform.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 20120,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										14473,
+										14473
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 11554.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/mgmtguide/thanks.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5598,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4653,
+										4653
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 5241.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/Marc/Desktop/php_public/prodsvcs/store/is-bah/thanks.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3822,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										196,
+										3822
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 4556.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 39.0
+			},
+			"input":
+			{
+				"height": 77.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 234.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "1 1758 13 1027 784 1440 -125 1920 1057 ",
+			"project": "",
+			"replace":
+			{
+				"height": 74.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 354.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 574.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 32,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

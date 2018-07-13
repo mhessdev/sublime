@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+try
+{
+	
+}
+catch(\Throwable \$e)
+{
+	newLog("${1:this}");
+    //Bugsnag::notifyException(\$e);
+    Bugsnag::notifyError('${1:this}', \$e->getMessage(), function(\$report){
+        \$report->setSeverity('info');
+    });
+    DB::rollBack();
+    return redirect()->back()->withErrors(["message" => \$e->getMessage()]);
+}
+catch(\Exception \$e)
+{
+	newLog("${1:this}");
+    //Bugsnag::notifyException(\$e);
+    Bugsnag::notifyError('${1:this}', \$e->getMessage(), function(\$report){
+        \$report->setSeverity('info');
+    });
+    DB::rollBack();
+    return redirect()->back()->withErrors(["message" => \$e->getMessage()]);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>try</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Create A Try Catch For PHP</description>
+</snippet>

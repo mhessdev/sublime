@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"Colorsublime"
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Blade Snippets",
+		"Colorsublime",
+		"Laravel 5 Snippets",
+		"Laravel Blade Highlighter",
+		"Material Theme",
+		"Package Control",
+		"PHP Companion",
+		"RegReplace",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"Vuejs Complete Package"
+	]
+}

@@ -1,0 +1,470 @@
+{
+	"format": "3.0",
+	"replacements":
+	{
+        // remove-trailing-spaces
+        "remove-trailing-space": {
+            "find": "\\s+$",
+            "replace": "",
+            "greedy": true,
+            "no_selection": true
+        },
+        // remove-trailing-linefeed
+        "remove-trailing-linefeed": {
+            "find": "$\\n",
+            "replace": "",
+            "greedy": true,
+            "no_selection": true
+        },
+        // add-trailing-space
+        "add-trailing-space": {
+            "find": "((?![;>{}]).)$",
+            "replace": "\\1 ",
+            "greedy": true,
+            "no_selection": true
+        },
+        // remove leading whitespace
+        "remove-leading-space": {
+            "find": "^\\s+",
+            "replace": "",
+            "greedy": true,
+            "no_selection": true
+        },
+
+//"find": "(print|echo)\\s*([^\"]*)\"([^\\\\n]*)\\\\n\";",
+//"replace": "\\2\"\\3\"",
+
+        // remove-print-statement-1
+        "remove-print-statement-1": {
+            "find": "(print|echo) '(.+)'\\.\"(.*)\\\\n\";$",
+            "replace": "\\2\\3",
+            "greedy": true,
+            "no_selection": true
+        },
+        // remove-print-statement-2
+        "remove-print-statement-2": {
+            "find": "(print|echo) \"(.+)\\\\n\";$",
+            "replace": "\\2",
+            "greedy": true,
+            "no_selection": true
+        },
+        // remove-print-statement-print-variables
+        "remove-print-statement-print-variables": {
+            "find": "'\\.(.+?)(?<!')\\.'",
+            "replace": "<?php print \\1;?>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // remove-print-statement-bracket-variables
+        "remove-print-statement-bracket-variables": {
+            "find": "'\\.(.+?)(?<!')\\.'",
+            "replace": "`\\1`",
+            "greedy": true,
+            "no_selection": true
+        },
+        // remove-escaped-2
+        "remove-escaped-2": {
+            "find": "\\\\\\\"(.+?)\\\\\\\"",
+            "replace": "\"\\1\"",
+            "greedy": "true",
+            "no_selection": true
+        },
+        // add-print-statement
+        "add-print-statement": {
+            "find": "^(.+)$",
+            "replace": "print '\\1'.\"\\\\n\";",
+            "greedy": true,
+            "no_selection": true
+        },
+        // wrap-php-vars
+        "wrap-php-vars": {
+            "find": "'\\.(\\$.+?)\\.'",
+            "replace": "`\\1`",
+            "greedy": true,
+            "no_selection": true
+        }, 
+        // hide php
+        "hide-php": {
+            "find": "(?i)<\\?php(.+?)\\?>",
+            "replace": "`~php\\1~`",
+            "greedy": true,
+            "no_selection": true
+        },
+        // show php
+        "show-php": {
+            "find": "`~(.+?)~`",
+            "replace": "<?\\1?>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // hide cf
+        "hide-cf": {
+            "find": "(?i)<(/*cf[^>]*)>",
+            "replace": "`~\\1~`",
+            "greedy": true,
+            "no_selection": true
+        },
+        // showcf
+        "show-cf": {
+            "find": "`~(.+?)~`",
+            "replace": "<\\1>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // strip-php-functions
+        "strip-php-functions": {
+            "find": "(?s)'\\.[^']*'([^']*)'\\]\\)\\.'",
+            "replace": "\\1",
+            "greedy": true,
+            "no_selection": true
+        },
+        // strip-tr
+        "strip-tr":{
+            "find": "(?i)<tr[^>]*>(.+?)</tr>",
+            "replace": "\\1",
+            "greedy": true,
+            "no_selection": true
+        },
+        // strip-td
+        "strip-td":{
+            "find": "(?i)<td[^>]*>(.+?)</td>",
+            "replace": "\\1\\n",
+            "greedy": true,
+            "no_selection": true
+        },
+        // table-to-group
+        "table-to-group": {
+            "find": "(?s)(?i)<table[^>]*>(.+?)</table>",
+            "replace": "<div class=\"form-group\">\\1</div><div class=\"clearfix\"></div>",
+            "greedy": false,
+            "no_selection": true
+        },
+        // table-responsive
+        "table-responsive": {
+            "find": "(?s)(?i)<table([^>]*)>(.+?</table>)",
+            "replace": "<div class=\"table-responsive\"><table class=\"table\"\\1>\\2</div><div class=\"clearfix\">&nbsp;</div>",
+            "greedy": false,
+            "no_selection": true
+        },
+        // tr-fields-to-col
+        "tr-fields-to-col": {
+            "find": "(?i)<tr[^>]*><td[^>]*>(.*?)</td><td[^>]*>(.*?)</td></tr>",
+            "replace": "<div class=\"row\"><div class=\"col-sm-4\"><label class=\"control-label\">\\1</label></div><div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\\2</div></div>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // tr-radiocheck-to-col
+        "tr-radiocheck-to-col": {
+            "find": "(?i)<tr[^>]*><td[^>]*>(.*?)(<input\\s)([^>]*\\btype\\s*?=\\s*?[\"'])(.+?)([\"'])([^>]*>)\\s*(.+?)</td></tr>",
+            "replace": "<div class=\"row\"><div class=\"col-xs-12 form-inline\">\\1\\2class=\"form-control\" \\3\\4\\5\\6<label class=\"control-label\">\\7</label></div></div>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // group-radiocheck-to-col
+        "group-radiocheck-to-col": {
+            "find": "(?i)<div class\\s*?=\\s*?[\"'].*?(form-group).*?[\"'][^>]*><div class\\s*?=\\s*?[\"'].*?(radio|checkbox).*?[\"'][^>]*>(<input.+?)><label[^>]*>(.+?)</label></div></div>",
+            "replace": "<div class=\"row\"><div class=\"col-xs-12 form-inline\">\\3 class=\"form-control\" ><label class=\"control-label\">\\4</label></div></div>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // radiocheck-to-col
+        "radiocheck-to-col": {
+            "find": "(?i)<div class\\s*?=\\s*?[\"'].*?(radio|checkbox).*?[\"'][^>]*>(<input\\s)(.+?>)<label[^>]*>(.+?)</label></div>",
+            "replace": "<div class=\"row\"><div class=\"col-xs-12 form-inline\">\\2 class=\"form-control\" \\3<label class=\"control-label\">\\4</label></div></div>",
+            "greedy": true,
+            "no_selection": true
+        },
+        "wrapper-radiocheck-to-col": {
+            "find": "(?i)(<(p|div|li)[^>]*>)(<(input|select|textarea)\\s)([^>]*>)(.+?)</\\2>",
+            "replace": "\\1\\3class=\"form-control\" \\5<label class=\"control-label\">\\6</label></\\2>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // tr-col-col
+        "tr-to-col": {
+            "find": "(?i)<tr[^>]*><td[^>]*>(.*?)</td><td[^>]*>(.*?)</td></tr>",
+            "replace": "<div class=\"row\"><div class=\"col-sm-4\">\\1</div><div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\\2</div></div>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // group-to-col-1
+        "group-to-col-1": {
+            "find": "(?i)<div class\\s*?=\\s*?[\"'].*?(form-group|radio|checkbox).*?[\"'][^>]*>.*?<label[^>]*>(.+?)</label>.*?(<select.+?/select>|<input.+?>)</div>",
+            "replace": "<div class=\"row\"><div class=\"col-sm-4\"><label>\\2</label></div><div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\\3</div></div>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // group-to-col-2
+        "group-to-col-2": {
+            "find": "(?i)<div class\\s*?=\\s*?[\"'].*?(form-group|radio|checkbox).*?[\"'][^>]*>.*?<label[^>]*>(.+?)</label>(.*?)(<textarea.+?/textarea>)</div>",
+            "replace": "<div class=\"row\"><div class=\"col-sm-4\"><label>\\2</label></div><div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\\3\\4</div></div>",
+            "greedy": true,
+            "no_selection": true
+        },
+        "cfm-group-to-col":{
+            "find": "(?i)<div class\\s*?=\\s*?[\"'].*?(form-group).*?[\"'][^>]*>.*?<label[^>]*(.+?)</label>(<br />)*(.*?)(<cf.+?/cf[^>]*>)</div>",
+            "replace": "<div class=\"row\"><div class=\"col-sm-4\"><label>\\2</label></div><div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\\4\\5</div></div>",
+        },
+        "br-to-col": {
+            "find": "^(?i)(.+?:)\\s*(.+?)<br.+$",
+            "replace": "<div class=\"row\"><div class=\"col-sm-4\">\\1</div><div class=\"col-xs-offset-1 col-sm-offset-0 col-sm-8\">\\2</div></div>",
+            "greedy": true,
+            "no_selection": true
+        },        
+        // add-id
+        "add-id": {
+            "find": "(?i)<(input|select|textarea)(?![^>]*\\bid\\s*?=)([^>]*\\bname\\s*?=)\"(.+?)\"",
+            "replace": "<\\1\\2\"\\3\" id=\"\\3\"",
+            "greedy": true,
+            "no_selection": true
+        },
+        // add-form-control
+        "add-form-control": {
+            "find": "(?i)<(input|select|textarea)(?![^>]*\\bclass\\s*?=\\s*?\".*?form-control.*?\")([^>]*\\b)(name)",
+            "replace": "<\\1\\2class=\"form-control\" \\3",
+            "greedy": true,
+            "no_selection": true
+        },
+        // add-control-label
+        "add-control-label": {
+            "find": "(?i)(<label[^>]*)>",
+            "replace": "\\1 class=\"control-label\">",
+            "greedy": true,
+            "no_selection": true
+        },
+        // add-for
+        "add-for": {
+            "find": "((?i)<label[^>]*)(>.+?<(input|select|textarea)[^>]*\\bid\\s*?=\\s*?[\"'])(.+?)([\"'])",
+            "replace": "\\1 for=\"\\4\"\\2\\4\\5",
+            "greedy": true,
+            "no_selection": true
+        },
+        // add-radiocheck-for
+        "add-radiocheck-for": {
+            "find": "(?i)(<input[^>]*\\bid\\s*?=\\s*?[\"'])(.+?)([\"'])(.+?<label[^>]*)>",
+            "replace": "\\1\\2\\3\\4 for=\"\\2\">",
+            "greedy": true,
+            "no_selection": true
+        },
+        // deprecate-required
+        "deprecate-required": {
+            "find": "(?i)<img[^>]*\\bsrc\\s*?=\\s*?\".+?asterisk.gif[^>]*>",
+            "replace": "*",
+            "greedy": true,
+            "no_selection": true
+        },
+        // add-required
+        "decorate-required": {
+            "find": "(?i)(<label[^>]*>.+?)\\s(\\*)(\\s*?</label>.+?<)(input|select|textarea)(.+?)(/*)>",
+            "replace": "\\1&nbsp;<span class=\"required\">\\2</span>\\3\\4\\5 REQUIRED \\6>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // indent-2cols
+        "indent-2cols": {
+            "find": "(?i)(<div class=\"row\">)(<div[^>]*>)(.+?)(</div>)(<div[^>]*>)(.+?)(</div>)(</div>)",
+            "replace": "\\n\\t\\1\\n\\t\\t\\2\\n\\t\\t\\t\\3\\n\\t\\t\\4\\n\\t\\t\\5\\n\\t\\t\\t\\6\\n\\t\\t\\7\\n\\t\\8",
+            "greedy": true,
+            "no_selection": true
+        },
+        // indent-radiocheck
+        "indent-radiocheck": {
+            "find": "(?i)(<div[^>]*>)(<div[^>]*>)(<input[^>]*>)(.+?/label>)(</div>)(</div>)",
+            "replace": "\\n\\t\\1\\n\\t\\t\\2\\n\\t\\t\\t\\3\\n\\t\\t\\t\\4\\n\\t\\t\\5\\n\\t\\6",
+            "greedy": true,
+            "no_selection": true
+        },
+        // indent-wrapper-radiocheck
+        "indent-wrapper-radiocheck": {
+            "find": "(?i)(<(p|div|li)[^>]*>)(<(input|select|textarea)[^>]*>)(<label.+?/label>)</\\2>",
+            "replace": "\\t\\1\\n\\t\\t\\3\\n\\t\\t\\5\\n\t</\\2>\n",
+            "greedy": true,
+            "no_selection": true
+        },
+        // tr-to-p
+        "tr-to-p": {
+            "find": "(?i)<tr[^>]*>\\s*?<td[^>]*>(.+?)</td></tr>",
+            "replace": "<p>\\1</p>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // table-to-p
+        "table-to-p": {
+            "find": "(?is)<table([^>]*)><tr><td>(.+?)</td></tr></table>",
+            "replace": "<p\\1>\\2</p>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // row-wrap
+        "row-wrap": {
+            "find": "(?s)(?i)(<div[^>]*col-[^>]*>.+?</div>.*?<div[^>]*col-[^>]*>.+?</div>)",
+            "replace": "<div class=\"row\">\\1</div>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // label-wrap
+        "label-wrap": {
+            "find": "(?i)(.+)",
+            "replace": "<label class=\"control-label\" for=\"\">\\1</label>",
+            "greedy": false,
+            "no_selection": true
+        },
+        // php-wrap
+        "php-wrap": {
+            "find": "(?s)(.+)",
+            "replace": "<?php \\1 ?>",
+            "greedy": false,
+            "no_selection": true
+        },
+        // hide-commas
+        "hide-commas": {
+            "find": "(\\@[^\"]+),",
+            "replace": "\\1~=",
+            "greedy": true,
+            "no_selection": true
+        },
+        // show-commas
+        "show-commas": {
+            "find": "~=",
+            "replace": ",",
+            "greedy": true,
+            "no_selection": true
+        },
+        // send-mail
+        "send-mail": {
+            "find": "(?i)^(\\s*?)(mail\\(\\s*(.+?),\\s*(.+?),\\s*(.+?),.+)",
+            "replace": "\\1$TO = explode(',',\\3);\n\\1$SUBJECT = \\4;\n\\1$body = array('Html' => array('Charset' => \"UTF-8\", 'Data' => \\5));\n\\1sendmail($FROM, $TO, $SUBJECT, $body);\n\\1//\\2",
+            "greedy": false,
+            "no_selection": true
+        },
+        // format-php
+        "format-php": {
+            "find": "(\n^\\s*)([\\<'\"\\\\])",
+            "replace": "\\2",
+            "greedy": true,
+            "no_selection": true, 
+        },
+        // puc
+        "puc": {
+            "find": "(?s)(?i).+?^(\\$r00.+?$).+?(\\$r501.+?$).+?(\\$r1501.+?$).+?(\\$tc.+?$).+",
+            "replace": "<?php \\ninclude 'puc_lib.php';\\n\\n/*\\n\\nModify the following four variables and save as a new PHP file for the next \\n6-month period. The file name should be \"pucYYYY01.php\" for the first\\nbi-annual period (Jan-June), and \"pucYYYY07.php\" for the second (July-Dec).\\n\\n*/\\n\\n// 0-500 miles rate\\n\\1\\n// 501-1500 miles rate\\n\\2\\n// 1501+ miles rate\\n\\3\\n// terminal charge\\n\\4\\n\\n// -- DO NOT MODIFY ANYTHING BELOW THIS LINE -- \\n\\nif (preg_match(\"/puc(\\d{4})(\\d{2})\\.php/\", $_SERVER['SCRIPT_FILENAME'], $daterange)) {\\n    if ($daterange[2] == '01') {\\n        $timeFrame = 'January 1 &#150; June 30, '.$daterange[1];\\n        $months6 = \"<option>Jan<option>Feb<option>Mar<option>Apr<option>May<option>June\";\\n    } elseif ($daterange[2] == '07') {\\n        $timeFrame = 'July 1 &#150; December 31, '.$daterange[1];\\n        $months6 = \"<option>July<option>Aug<option>Sept<option>Oct<option>Nov<option>Dec\";\\n    } else {\\n        print \"<p>Month range error: \".$_SERVER['SCRIPT_FILENAME'].\"</p>\";\\n        exit();\\n    }\\n    $days31 = \"d1d2d3d4d5d6d7d8d9d10d11d12d13d14d15d16d17d18d19d20d21d22d23d24d25d26d27d28d29d30d31\";\\n    $days31 = preg_replace(\"/d/\", '<option>', $days31);\\n    masterPUC ();\\n} else {\\n    print \"<p>File name error: \".$_SERVER['SCRIPT_FILENAME'].\"</p>\";\\n}\\nexit();\\n?>\\n",
+            "greedy": false,
+            "no_selection": true
+        },
+        // puc2
+        "puc2": {
+            "find": "(?i)(?s)(.+?)(include 'puc_lib.php';)(.+?)^\\s+\\$months6.+?$\n(.+?)^\\s+?\\$months6.+?$(.+?)^\\s+\\$days31.+?masterPUC\\(\\);(.+)",
+            "replace": "\\1\\3\\4\\5\\t\\2\\6",
+            "greedy": false,
+            "no_selection": true
+        },
+        // remove-attributes
+        "remove-attributes": {
+            "find": "(?i)<(p|div|ul|li|h[0-9])[^>]*>",
+            "replace": "<\\1>",
+            "greedy": true,
+            "no_selection": true
+        },
+        // swapcol-4,8-1
+        "swapcol-4,8-1": {
+            "find": "(?i)col-sm-8",
+            "replace": "col-sm-8z",
+            "greedy": true,
+            "no_selection": true
+        },
+        // swapcol-4,8-2
+        "swapcol-4,8-2": {
+            "find": "(?i)col-sm-4",
+            "replace": "col-sm-8",
+            "greedy": true,
+            "no_selection": true
+        },
+        // swapcol-4,8-3
+        "swapcol-4,8-3": {
+            "find": "(?i)col-sm-8z",
+            "replace": "col-sm-4",
+            "greedy": true,
+            "no_selection": true
+        },
+        // swapcol-8,4-1
+        "swapcol-8,4-1": {
+            "find": "(?i)col-sm-4",
+            "replace": "col-sm-4z",
+            "greedy": true,
+            "no_selection": true
+        },
+        // swapcol-8,4-2
+        "swapcol-8,4-2": {
+            "find": "(?i)col-sm-8",
+            "replace": "col-sm-4",
+            "greedy": true,
+            "no_selection": true
+        },
+        // swapcol-8,4-3
+        "swapcol-8,4-3": {
+            "find": "(?i)col-sm-4z",
+            "replace": "col-sm-8",
+            "greedy": true,
+            "no_selection": true
+        },
+        // swapcol-4,8,6
+        "swapcol-4,8,6": {
+            "find": "(?i)col-sm-(4|8)",
+            "replace": "col-sm-6",
+            "greedy": true,
+            "no_selection": true
+        },
+        // cleanup-app
+        "cleanup-app-1": {
+            "find": " <span class=\"required\">\\*</span>",
+            "replace": " *",
+            "greedy": true,
+            "no_selection": true
+        },
+
+    }
+}
+/*
+Normalization:
+
+    find: <(b|strong)>(.+?)</\1>
+    replace: \2
+
+    find: (\[(?!"|'|\$|[0-9]))(.+?)\]
+    replace: \1'\2']
+
+    find: (^\s+)(<div class="col[^>]*>)(.+?)(</div>)
+    replace: \1\2\n\1\t\3\n\1\4
+
+    find: (?s)(^\s+)<div class="form-group">(.+?)^\1</div>
+    replace: \2
+
+    find: print "(.+?)"
+    replace: print \1
+
+
+    if (ERROR) {
+        var t = (ERROR == 1 ? ' Correction ' : ' Corrections ');
+        document.getElementById('error_title').innerHTML = ERROR + t + ' Needed!';
+        document.getElementById('error_message').innerHTML='<p>You forgot to fill in correctly:</p><ul>'+ text.replace(/\n/g,"<li>") + '</ul>';
+        $('#error_dialog').modal('show')
+
+
+    <div class="modal fade" id="error_dialog" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal" type="button">&times;</button>
+                    <h4 class="modal-title" id="error_title"></h4>
+                </div>
+                <div class="modal-body" id="error_message"></div>
+            </div>
+            <div class="row">
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+*/

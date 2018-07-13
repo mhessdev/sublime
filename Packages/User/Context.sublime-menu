@@ -1,0 +1,396 @@
+[
+{
+	"caption": "Responsive Transforms",
+	"id": "responsive",
+	"children":
+	[
+		{
+			"caption": "Block transforms",
+			"children": [
+				{
+					"caption": "Cold Fusion",
+					"children": [
+						{
+							"caption": "cf form-group > field row",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-cf",
+								"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+								"group-to-col-1",
+								"group-to-col-2",
+								"add-id",
+								"add-form-control",
+								"add-control-label",
+								"add-for",
+								"deprecate-required",
+								"decorate-required",
+								"indent-2cols",
+								"show-cf"
+							]}
+						},
+						{
+							"caption": "cf form-group > content row",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-cf",
+								"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+								"cfm-group-to-col",
+								"indent-2cols",
+								"show-cf"
+							]}
+						},
+						{
+							"caption": "cf p|div|li wrapper > radio/checkbox",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-cf",
+								"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+								"wrapper-radiocheck-to-col",
+								"add-id",
+								"add-form-control",
+								"add-radiocheck-for",
+								"deprecate-required",
+								"decorate-required",
+								"indent-wrapper-radiocheck",
+								"show-cf"
+							]}
+						},
+						{
+							"caption": "cf radio|checkbox wrapper > radio/checkbox",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-cf",
+								"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+								"radiocheck-to-col",
+								"add-id",
+								"add-form-control",
+								"add-radiocheck-for",
+								"deprecate-required",
+								"decorate-required",
+								"indent-radiocheck",
+								"show-cf"
+							]}
+						},
+						{
+							"caption": "cf br > field row",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-cf",
+								"remove-leading-space",
+								"br-to-col",
+								"add-id",
+								"add-form-control",
+								"add-control-label",
+								"add-for",
+								"deprecate-required",
+								"decorate-required",
+								"indent-2cols",
+								"show-cf"
+							]}
+						},
+						{
+							"caption": "cf br > content row",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-cf",
+								"remove-leading-space",
+								"br-to-col",
+								"indent-2cols",
+								"show-cf"
+							]}
+						}					]
+				},
+				{
+					"caption": "PHP",
+					"children": [
+						{
+							"caption": "form-group > field row",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-php",
+								"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+								"group-to-col-1",
+								"group-to-col-2",
+								"add-id",
+								"add-form-control",
+								"add-control-label",
+								"add-for",
+								"deprecate-required",
+								"decorate-required",
+								"indent-2cols",
+								"show-php"
+							]}
+						},
+						{
+							"caption": "form-group > content row",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-php",
+								"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+								"group-to-col-1",
+								"group-to-col-2",
+								"indent-2cols",
+								"show-php"
+							]}
+						},
+						{
+							"caption": "form-group > radio/checkbox",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-php",
+								"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+								"group-radiocheck-to-col",
+								"add-id",
+								"add-form-control",
+								"add-radiocheck-for",
+								"deprecate-required",
+								"decorate-required",
+								"indent-radiocheck",
+								"show-php"
+							]}
+						},
+						{
+							"caption": "br > field row",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-php",
+								"remove-leading-space",
+								"br-to-col",
+								"add-id",
+								"add-form-control",
+								"add-control-label",
+								"add-for",
+								"deprecate-required",
+								"decorate-required",
+								"indent-2cols",
+								"show-php"
+							]}
+						},
+						{
+							"caption": "br > content row",
+							"command": "reg_replace",
+							"args": {"replacements": [
+								"hide-php",
+								"remove-leading-space",
+								"br-to-col",
+								"indent-2cols",
+								"show-php"
+							]}
+						}
+					]
+				}
+			]
+		},
+		{
+			"caption": "Table transforms",
+			"children": [
+				{
+					"caption": "tr > field row",
+					"command": "reg_replace",
+					"args": {"replacements": [
+						"hide-php",
+						"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+						"tr-fields-to-col",
+						"add-id",
+						"add-form-control",
+						"add-for",
+						"deprecate-required",
+						"decorate-required",
+						"indent-2cols",
+						"show-php"
+					]}
+				},
+				{
+					"caption": "tr > content row",
+					"command": "reg_replace",
+					"args": {"replacements": [
+						"hide-php",
+						"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+						"tr-to-col",
+						"indent-2cols",
+						"show-php"
+					]}
+				},
+				{
+					"caption": "tr > radio/checkbox",
+					"command": "reg_replace",
+					"args": {"replacements": [
+						"hide-php",
+						"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+						"tr-radiocheck-to-col",
+						"add-id",
+						"add-form-control",
+						"add-radiocheck-for",
+						"deprecate-required",
+						"decorate-required",
+						"indent-radiocheck",
+						"show-php"
+					]}
+				},
+				{
+					"caption": "tr > p",
+					"command": "reg_replace",
+					"args": {"replacements": [
+						"hide-php",
+						"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+						"tr-to-p",
+						"show-php"
+					]}
+				},
+				{
+					"caption": "table responsive",
+					"command": "reg_replace",
+					"args": {"replacements": [
+						"table-responsive"
+					]}
+				},
+				{
+					"caption": "remove table row",
+					"command": "reg_replace",
+					"args": {"replacements": [
+						"hide-php",
+						"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+						"strip-tr",
+						"strip-td",
+						"show-php"
+					]}
+				},
+				{
+					"caption": "table > p",
+					"command": "reg_replace",
+					"args": {"replacements":[
+						"table-to-p"
+					]}
+				},
+			]
+		},
+		{
+			"caption": "change column grids",
+			"children": [
+				{
+					"caption": "4,8 to 8,4",
+					"command": "reg_replace",
+					"args": {"replacements":[
+						"swapcol-4,8-1",
+						"swapcol-4,8-2",
+						"swapcol-4,8-3"
+					]}
+				},
+				{
+					"caption": "8,4 to 4,8",
+					"command": "reg_replace",
+					"args": {"replacements":[
+						"swapcol-8,4-1",
+						"swapcol-8,4-2",
+						"swapcol-8,4-3"
+					]}
+				},
+				{
+					"caption": "4,8 to 6",
+					"command": "reg_replace",
+					"args": {"replacements":["swapcol-4,8,6"]}
+				}
+			]
+		},
+		{
+			"caption": "Hide/Show code",
+			"children": [
+				{
+					"caption": "Hide cold fusion",
+					"command": "reg_replace",
+					"args": {"replacements":["hide-cf"]}
+				},
+				{
+					"caption": "Show cold fusion",
+					"command": "reg_replace",
+					"args": {"replacements":["show-cf"]}
+				},
+				{
+					"caption": "Hide PHP",
+					"command": "reg_replace",
+					"args": {"replacements":["hide-php"]}
+				},
+				{
+					"caption": "Show PHP",
+					"command": "reg_replace",
+					"args": {"replacements":["show-php"]}
+				},
+			]
+		},
+		{
+			"caption": "Strip code",
+			"children": [
+				{
+					"caption": "Remove whitespace",
+					"command": "reg_replace",
+					"args": {"replacements":["remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed"]}
+				},
+			    {
+			    	"caption": "strip attributes",
+			    	"command": "reg_replace",
+			    	"args": {"replacements": [
+						"remove-trailing-space","add-trailing-space","remove-leading-space","remove-trailing-linefeed",
+						"remove-attributes"
+			    	]}
+			    },
+			]
+		},
+		{
+			"caption": "PRINT statements",
+			"children": [
+				{
+					"caption": "strip print statement, print variables",
+					"command": "reg_replace",
+					"args": {"replacements": [
+						"remove-print-statement-1",
+						"remove-print-statement-2",
+						"remove-escaped-2",
+						"remove-print-statement-print-variables"
+					]}
+				},
+				{
+					"caption": "strip print statement, bracket variables",
+					"command": "reg_replace",
+					"args": {"replacements": [
+						"remove-print-statement-1",
+						"remove-print-statement-2",
+						"remove-escaped-2",
+						"remove-print-statement-bracket-variables"
+					]}
+				},
+				{
+					"caption": "add print statement",
+					"command": "reg_replace",
+					"args": {"replacements": [
+						"add-print-statement"
+					]}
+				},
+			]
+		},
+		{
+			"caption": "wrap .pagerow",
+			"command": "reg_replace",
+			"args": {"replacements": ["row-wrap"]}
+		},
+		{
+			"caption": "ses-mail",
+	        "command": "reg_replace",
+	        "args": {"replacements": [
+	        	"hide-commas",
+	        	"send-mail",
+	        	"show-commas"
+	        ]}
+	    },
+		{
+	        "caption": "wrap <label>",
+	        "command": "reg_replace",
+	        "args": {"replacements": ["label-wrap"]}
+	    },
+	    {
+	    	"caption": "wrap <?php ?>",
+	    	"command": "reg_replace",
+	    	"args": {"replacements": ["php-wrap"]}
+	    },
+	]
+}
+]

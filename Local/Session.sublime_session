@@ -1,0 +1,176 @@
+{
+	"folder_history":
+	[
+		"/Users/Marc/Library/Application Support/Sublime Text 3",
+		"/Users/Marc/Desktop/php-ssl/awards/gold-wing",
+		"/Applications",
+		"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms",
+		"/Users/Marc/Desktop/php-ssl"
+	],
+	"last_version": 3176,
+	"last_window_id": 17,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 762.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"in",
+						"input\tTag"
+					],
+					[
+						"choiceThree",
+						"choiceThreeStartTime"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/reg_replace_rules.sublime-settings",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/User/Context.sublime-menu",
+				"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms/appform.php",
+				"/Users/Marc/Desktop/internal/test-harness/readme.text",
+				"/usr/local/bin/commit.sh",
+				"/Users/Marc/.bash_profile",
+				"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms/test.text",
+				"/Users/Marc/Desktop/php-ssl/events/bace/2018/manage-your-exhibit/press-conference-rooms/commit.sh",
+				"/Users/Marc/Desktop/PersonalProjects/index.html",
+				"/Users/Marc/Desktop/PersonalProjects/nbaaDevInfos",
+				"/Users/Marc/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 80.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 42.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 80.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1027.0
+	},
+	"windows":
+	[
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
